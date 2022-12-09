@@ -2,14 +2,14 @@ import requests
 import json
 from datetime import date
 
-appID = "wxe1136b8c2bf1ef82"
-appsecret = "eede467c87e2fbf70a9b45bb335e91ba"
+appID = 
+appsecret = 
 tokenurl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=" + appID + "&secret=" + appsecret
 token = requests.get(tokenurl).json()["access_token"]
 
-wxuserdebug = "oHWB75go3M5mAOuQ6ShTOjOyDCNg"
-wxuser = "oHWB75vv2Qr73u48SDQcLaAGPPUo"
-template_id = "EjK-oxpO8tnWEcZDc6bg-HJ-b684DQH3i2viwAzeFNk"
+wxuserdebug = 
+wxuser = 
+template_id = 
 
 
 warn_url = "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=warnsum&lang=tc"
